@@ -1,0 +1,24 @@
+.container {
+    background-color: rgba(0, 37, 224, 0.443);
+    border-radius: 35px;
+    width: 350px;
+    height: 400px;
+    
+    color: rgb(242, 241, 241);
+    text-transform: uppercase;
+    transition: 0.2s;
+
+}
+
+.container:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    margin: -20px;
+
+}

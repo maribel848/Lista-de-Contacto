@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    gap: 50px;
+}
+.cerrar{
+    background-color: hwb(234 10% 12%);
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+.cerrar:hover{
+    cursor:pointer
+}
+
+.abrir{
+    background-color:hwb(234 10% 12%);
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.abrir:hover{
+    cursor:pointer
+}
